@@ -1,0 +1,17 @@
+{
+	"sensori_monitoraggio":[
+	{"nome_sm": "Telecamera", "tipo_consumo_sm": "KWH", "consumo_sm": 10, "sensore_attivato": "Allarme", "addon_sm": "Infrarossi"},
+	{"nome_sm": "Sensore di Fumo", "tipo_consumo_sm": "KWH", "consumo_sm": 1, "sensore_attivato": "Allarme Incendio", "addon_sm": "cassa"},
+	{"nome_sm": "Valvola Caldaia", "tipo_consumo_sm": "KWH", "consumo_sm": 10, "sensore_attivato": null , "addon_sm": null}
+	],
+	
+	"sensori_attivabili":[
+	{"nome_sa": "Sirena", "tipo_consumo_sa": "KWH", "consumo_sa": 2, "tempo_attivazione": 3, "addon_sa": null},
+	{"nome_sa": "Allarme", "tipo_consumo_sa": "KWH", "consumo_sa": 10, "tempo_attivazione": 5, "addon_sa": "Cassa"},
+	{"nome_sa": "Allarme incendio", "tipo_consumo_sa": "KWH", "consumo_sa": 10, "tempo_attivazione": 5, "addon_sa": null}
+	],
+	
+	"allarmi":[
+	{"id": 1, "data_inizio": "2021-09-13:12:40:12", "data_fine": "2021-09-13:12:45:12"}
+	]
+}
